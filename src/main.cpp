@@ -40,8 +40,8 @@ motor_group CenterWhells=motor_group(CenterWhell1,CenterWhell2);
 motor Brazo=motor(PORT11,ratio36_1,false);
 motor Garra=motor(PORT9,ratio18_1,true);
 
-motor BrazoL=motor(PORT11,ratio36_1,true);
-motor BrazoR=motor(PORT20,ratio36_1,false);
+motor BrazoR=motor(PORT12,ratio36_1,false);
+motor BrazoL=motor(PORT20,ratio36_1,true);
 
 pneumatics ValveL1=pneumatics(Brain.ThreeWirePort.A);
 pneumatics ValveL2=pneumatics(Brain.ThreeWirePort.B);
